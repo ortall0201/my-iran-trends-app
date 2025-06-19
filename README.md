@@ -1,23 +1,21 @@
-# my-iran-trends-app
 ---
 title: Iranian Protest Sentiment Tracker
-emoji: 📈
+emoji: 📊
 colorFrom: blue
 colorTo: red
 sdk: streamlit
 sdk_version: "1.35.0"
-app_file: app.py
+app_file: streamlit_app.py
 pinned: true
 ---
 
-# Iranian Protest Sentiment Tracker 🇮🇷
+# 🇮🇷 Iranian Protest Sentiment Tracker
 
-This app visualizes spikes in anti-regime sentiment across Iran using Google Trends data.  
-Search phrases like `مرگ بر دیکتاتور`, `سقوط رژیم`, or `Iran protests` to see trend charts over time.
+Track anti-regime sentiment in Iran using real-time Google Trends data.
 
-Built with Streamlit, PyTrends, and pandas.
+Type protest phrases like `مرگ بر دیکتاتور`, `سقوط رژیم`, or `Iran protests` to visualize spikes in search interest.
 
-📂 View the code in `streamlit_app.py`
-
-
-Track public sentiment in Iran using Google Trends data. Explore spikes in protest phrases. Built with Streamlit and PyTrends
+🧠 Powered by:
+- Streamlit
+- PyTrends
+- Google Trends API
